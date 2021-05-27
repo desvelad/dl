@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# Siri UserBot - ErdemBey - Midy
+# RG UserBot - Mehmett_12 - Midy
 
 """ UserBot başlangıç noktası """
 import importlib
@@ -32,7 +32,7 @@ ALIVE_MSG = [
     "`Userbotunuz çalışıyor ve sana bişey demek istiyor.. Seni seviyorum` **{sirisahip}** ❤️",
     "🎆 `Endişelenme! Seni yanlız bırakmam.` **{sirisahip}**, `userbot çalışıyor.`",
     "`⛈️ Elimden gelenin en iyisini yapmaya hazırım`, **{sirisahip}:3**",
-    "✨ `Siri sahibinin emirlerine hazır...`",
+    "✨ `RG sahibinin emirlerine hazır...`",
     "😔 `Gitmez dediğiniz insanlar bile gidiyor olmalı ki alive yazarak beni kontrol ediyorsun! Ben dynom bitene kadar` **{sirisahip}'i** `bırakmam!`",
     "`Şuan en gelişmiş userbotun düzenlediği mesajı okuyor olmalısın` **{sirisahip}**.",
     "`Huh!` **{sirisahip}** `beni çağırıyor 🍰 yiyordum ee şey en azından yemiş gibi yapıyorum..`",
@@ -92,7 +92,7 @@ KICKME_MSG = [
 ]
 
 
-UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben Siri. Endişelenme!\n\n`"
+UNAPPROVED_MSG = ("`Hey olduğun yerde kal,!👨‍💻 Ben RG. Endişelenme!\n\n`"
                   "`Sahibim sana mesaj atma izni vermedi o yüzden sahibim seni onaylayana kadar bu mesajı alacaksın.. `"
                   "`Lütfen sahibimin aktif olmasını bekleyin, o genellikle PM'leri onaylar.\n\n`"
                   "`Bildiğim kadarıyla o kafayı yemiş insanlara PM izni vermiyor.`")
@@ -176,7 +176,7 @@ try:
     idim = bot.get_me().id
     siribl = requests.get('https://raw.githubusercontent.com/SiriUserBot/datas/master/blacklist.json').json()
     if idim in siribl:
-        bot.send_message("me", f"`❌ Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        bot.send_message("me", f"`❌ RG yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
         LOGS.error("Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
     # ChromeDriver'ı Ayarlayalım #
@@ -270,12 +270,12 @@ for module_name in ALL_MODULES:
 os.system("clear")
 
 LOGS.info("+===========================================================+")
-LOGS.info("|                     ✨Siri Userbot✨                       |")
+LOGS.info("|                     ✨RG Userbot✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
-          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/SiriSupport")
-LOGS.info(f"Bot versiyonunuz: Siri {SIRI_VERSION}")
+          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/RgBotSupport ")
+LOGS.info(f"Bot versiyonunuz: RG {SIRI_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
