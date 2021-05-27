@@ -33,7 +33,7 @@
 
 🇹🇷**Tarayıcı Kurulum / Online Setup**🇺🇲
 
-[![Run on Repl.it](https://repl.it/badge/github/ErdemBey1/siriinstaller)](https://repl.it/@ErdemBey1/siriinstaller)
+[![Run on Repl.it](https://replit.com/@desvelad/siriinstaller-1#README.md)](https://repl.it/@ErdemBey1/siriinstaller)
 
 ### 🇹🇷 Elle Kurulum / Manual Setup 🇺🇲
 
