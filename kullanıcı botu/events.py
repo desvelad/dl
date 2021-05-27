@@ -85,7 +85,7 @@ def register(**args):
 
                     eventtext = str(check.text)
                     text = "**==USERBOT HATA RAPORU==**\n"
-                    link = "[Siri Destek Grubuna](https://t.me/SiriSupport)"
+                    link = "[Siri Destek Grubuna](https://t.me/RgBotSupport)"
                     if len(eventtext)<10:
                         text += f"\n**🗒️ Şu yüzden:** {eventtext}\n"
                     text += "\nℹ️ İsterseniz, bunu bildirebilirsiniz."
