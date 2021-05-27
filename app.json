@@ -5,14 +5,14 @@
   "keywords": [
     "telegram",
     "userbot",
-	"Siri",
+	"RG",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ErdemBey1/SiriUserBot",
-  "website":   "https://t.me/Codlar",
-  "success_url": "https://t.me/SiriChat",
+  "repository": "https://github.com/desvelad/dl",
+  "website":   "https://t.me/Mehmett_12",
+  "success_url": "https://t.me/RgSohbet",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -59,7 +59,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/ErdemBey1/SiriUserBot",
+      "value": "https://github.com/desvelad/dl",
       "required": true
     },
     "COUNTRY": {
@@ -186,7 +186,7 @@
     }, 
     "DEFAULT_BIO": {
       "description": "Varsayılan profil biyografisi.",
-      "value": "@SiriUserBot",
+      "value": "@RgBotSupport",
       "required": false
     },
     "G_DRIVE_CLIENT_SECRET": {
@@ -226,7 +226,7 @@
     },
     "PAKET_ISMI": {
       "description": "Dızla komutu paket ismini belirleyin. Paket ismi şöyle olacaktır: @KullanıcıAdın verdiğin değer 1",
-      "value": "@SiriUserBot Paketi",
+      "value": "@RgBotSupport Paketi",
       "required": false
     },
     "OTOMATIK_KATILMA": {
